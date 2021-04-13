@@ -1,20 +1,7 @@
-<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d)">
-<rect x="32" y="32" width="120" height="120" rx="60" fill="white"/>
-</g>
-<path d="M102.235 69.4091H64.1666V102.401H102.235V69.4091Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M102.235 82.0985H112.386L120 89.7121V102.402H102.235V82.0985Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M75.5871 115.091C79.0912 115.091 81.9318 112.25 81.9318 108.746C81.9318 105.242 79.0912 102.401 75.5871 102.401C72.083 102.401 69.2424 105.242 69.2424 108.746C69.2424 112.25 72.083 115.091 75.5871 115.091Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M108.579 115.091C112.084 115.091 114.924 112.25 114.924 108.746C114.924 105.242 112.084 102.401 108.579 102.401C105.075 102.401 102.235 105.242 102.235 108.746C102.235 112.25 105.075 115.091 108.579 115.091Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<defs>
-<filter id="filter0_d" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dx="18" dy="18"/>
-<feGaussianBlur stdDeviation="25"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
-</defs>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="120" height="120" rx="60" fill="white"/>
+<path d="M70.2348 37.4091H32.1666V70.4015H70.2348V37.4091Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.2347 50.0985H80.3862L87.9999 57.7121V70.4015H70.2347V50.0985Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M43.5871 83.0908C47.0912 83.0908 49.9318 80.2501 49.9318 76.7461C49.9318 73.242 47.0912 70.4014 43.5871 70.4014C40.083 70.4014 37.2424 73.242 37.2424 76.7461C37.2424 80.2501 40.083 83.0908 43.5871 83.0908Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M76.5794 83.0908C80.0835 83.0908 82.9241 80.2501 82.9241 76.7461C82.9241 73.242 80.0835 70.4014 76.5794 70.4014C73.0754 70.4014 70.2347 73.242 70.2347 76.7461C70.2347 80.2501 73.0754 83.0908 76.5794 83.0908Z" stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

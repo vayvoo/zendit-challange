@@ -169,7 +169,7 @@ input[type=submit]{
 }
 .card{
     width: 350px;
-    height: 417px;
+    height: 357px;
     padding: 30px;
     
     background: #F6F8FF;
@@ -183,10 +183,12 @@ input[type=submit]{
     font-size: 32px;
     line-height: 48px;
     color: #172F53;
+    margin-bottom: 34px;
 }
-
+.card-image{
+    margin-bottom: 39px;
+}
 .card-text{
-    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #A9A9A9;
