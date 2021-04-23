@@ -313,8 +313,7 @@ input[type=text]{
     margin-left: 88px;
 }
 .page-footer{
-    height: 815px;
-    padding: 95px 140px 0 162px;
+    padding: 95px 140px 200px 162px;
     background: #172F53 url(/img/footer.png) no-repeat center bottom;
 }
 .footer-main{
@@ -338,6 +337,7 @@ input[type=text]{
 }
 .footer-item{
     margin-bottom: 30px;
+    white-space: nowrap;
 }
 .footer-text{
     margin-bottom: 30px;
