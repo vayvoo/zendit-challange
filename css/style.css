@@ -61,14 +61,16 @@ body{
     color: #172F53;
 }
 .textimg{
-    max-width: 1847px;
+    max-width: 1636px;
     margin: 0 auto;
     display: flex;
+    
 }
 .textright{
-    margin-left: 142px;
     width: 684px;
+    padding-top: 118px;
     padding-bottom: 375px;
+    position: relative;
 }
 .sendgoods{
     font-weight: bold;
@@ -81,11 +83,16 @@ body{
     font-size: 30px;
     line-height: 45px;
     color: #7D7D7D;
-    
 }
-.deliver{
-    margin-left: 138px;
-    margin-top: -80px;
+.textright::after{
+    content: "";
+    display: inline-block;
+    background: url("../img/delever.png") no-repeat;
+    width: 950px;
+    height: 831px;
+    position: absolute;
+    right: -1100px;
+    top: -120px;
 }
 .trackblock{
     position: relative;
@@ -363,6 +370,7 @@ input[type=text]{
 }
 .app{
     margin-bottom: 25px;
+    display: block;
 }
 .footer-image{
     position: relative;
