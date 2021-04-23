@@ -35,40 +35,39 @@
         
     </div>
     <div class="trackblock">
-        <p class="tracktitle">Track your packet here</p>
+        <h3 class="tracktitle">Track your packet here</h3>
         <p class="trackdesc">data provided by zendit</p>
         <form action="" class="track-form">
-            <input type="text" placeholder="enter the tracking number / receipt">
-            <input type="submit" value="Track parcel">
+            <label for="trackingnum" class="hidden"></label>
+            <input id="trackingnum" name="tracknum" required type="text" placeholder="enter the tracking number / receipt">
+            <button class="submit-btn" type="submit">Track parcel</button>
         </form>
     </div>
     <section class="offer">
         <div class="offer-text">
-            <p class="offer-minitxt">Special Offer</p>
-            <p class="offer-title titles">We offer an outstanding service on-time everytime</p>
+            <h3 class="offer-minitxt">Special Offer</h3>
+            <h2 class="offer-title titles">We offer an outstanding service on-time everytime</h2>
         </div>
         <div class="offer-cards">
             <div class="card">
-                <p class="card-title">Local Heroes</p>
-                <img src="img/gift.svg" alt="" class="card-image">
+                <h3 class="card-title hero">Local Heroes</h3>
+                
                 <p class="card-text">minimum distance <span class="card-km">10 miles</span> </p>
                 <p class="card-text">maximum distance <span class="card-km">10 miles</span></p>
             </div>
             <div class="card">
-                <p class="card-title">Airplanings</p>
-                <img src="img/comp.svg" alt="" class="card-image">
+                <h3 class="card-title airplain">Airplanings</h3>
                 <p class="card-text">minimum distance <span class="card-km">25 miles</span> </p>
                 <p class="card-text">maximum distance <span class="card-km">12 miles</span></p>
             </div>
             <div class="card feature">
-                <p class="card-title white-text" style="margin-bottom: 34px;">Speedrunner</p>
+                <h3 class="card-title white-text speed" style="margin-bottom: 34px;">Speedrunner</h3>
                 <img src="img/goal.svg" alt="" class="card-image" style="margin-bottom: 39px;">
                 <p class="card-text white-text">minimum distance <span class="card-km white-text">150 miles</span> </p>
                 <p class="card-text white-text">maximum distance <span class="card-km white-text">35 miles</span></p>
             </div>
             <div class="card">
-                <p class="card-title">Local Racers</p>
-                <img src="img/truck.svg" alt="" class="card-image">
+                <h3 class="card-title racer">Local Racers</h3>
                 <p class="card-text">minimum distance <span class="card-km">215 miles</span> </p>
                 <p class="card-text">maximum distance <span class="card-km">60 miles</span></p>
             </div>
@@ -76,7 +75,7 @@
     </section>
     <section class="discount">
         <div class="dis-info">
-            <p class="titles dis-title">Get discounts up to 40% just by registering your account</p>
+            <h2 class="titles dis-title">Get discounts up to 40% just by registering your account</h2>
             <p class="dis-desc">Zendit Express Division serves time-sensitive packages and 
                 documents to domestic destinations through more than 1,500 
                 exclusive service points from pick-up to delivery spread across 
@@ -86,9 +85,9 @@
         <img src="img/girl-with-head.png" alt="" class="dis-image" width="629" height="658">
     </section>
     <section class="partner">
-        <p class="offer-minitxt">Partnership</p>
-        <p class="partner-title titles">trusted by more than 150+
-            big companies</p>
+        <h3 class="offer-minitxt">Partnership</h3>
+        <h2 class="partner-title titles">trusted by more than 150+
+            big companies</h2>
         <div class="partner-block">
             <img src="img/shopee.png" alt="" class="partner-img" width="238" height="83">
             <img src="img/bibli.png" alt="" class="partner-img" width="234" height="84">
@@ -99,7 +98,7 @@
     <footer class="page-footer">
         <div class="footer-main">
             <div class="footer-info">
-                <p class="footer-title">Information</p>
+                <h4 class="footer-title">Information</h4>
                 <ul class="footer-items">
                     <a href="#" class="footer-nav-link"><li class="footer-item">FAQ</li></a>
                     <a href="#" class="footer-nav-link"><li class="footer-item">Terms & Conditions</li></a>
@@ -107,7 +106,7 @@
                 </ul>
             </div>
             <div class="footer-product">
-                <p class="footer-title">Product & Service</p>
+                <h4 class="footer-title">Product & Service</h4>
                 <ul class="footer-items">
                     <li class="footer-item"><a href="#" class="footer-nav-link">Shipment</a></li>
                     <li class="footer-item"><a href="#" class="footer-nav-link">Cargo</a></li>
@@ -118,7 +117,7 @@
                 </ul>
             </div>
             <div class="footer-contact">
-                <p class="footer-title">Info Contact</p>
+                <h4 class="footer-title">Info Contact</h4>
                 <p class="footer-text">Jl. Ir. H. Juanda 3 No. 17-19, 
                     RT.008/RW.002, Kel. Kebon 
                     Kelapa Kec. Gambir, Jakarta 
@@ -126,7 +125,7 @@
                 <p class="footer-text">customer.care@zendit.com</p>
             </div>
             <div class="footer-download">
-                <p class="footer-title">Download App</p>
+                <h4 class="footer-title">Download App</h4>
                 <a href="#"><img src="img/play.png" alt="play" class="app" width="203" height="62"></a>
                 <a href="#"><img src="img/store.png" alt="store" class="app" width="203" height="62"></a>
             </div>

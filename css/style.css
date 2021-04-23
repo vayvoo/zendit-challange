@@ -127,13 +127,15 @@ input[type=text]{
     border-radius: 10px;
     border: none;
 }
-input[type=submit]{
+.submit-btn{
     width: 337px;
     padding: 31px 88px;
     height: 100px;
+    margin-left: 10px;
     font-weight: bold;
     font-size: 25px;
     line-height: 37px;
+    white-space: nowrap;
     color: #FFFFFF;
     background: #21D8E3;
     border-radius: 10px;
@@ -181,14 +183,48 @@ input[type=submit]{
     margin-left: 65px;
 }
 .card-title{
+    position: relative;
     font-weight: bold;
     font-size: 32px;
     line-height: 48px;
     color: #172F53;
-    margin-bottom: 34px;
+    margin-bottom: 200px;
 }
-.card-image{
-    margin-bottom: 38px;
+.hero::after{
+    content: "";
+    background: url("../img/gift.svg") no-repeat;
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.airplain::after{
+    content: "";
+    background: url("../img/comp.svg") no-repeat;
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.speed::after{
+    content: "";
+    background: url("../img/goal.svg") no-repeat;
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.racer::after{
+    content: "";
+    background: url("../img/truck.svg") no-repeat;
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 80px;
+    left: 0;
 }
 .card-text{
     font-size: 20px;
@@ -323,4 +359,13 @@ input[type=submit]{
 .footer-image{
     position: relative;
     bottom: 0;
+}
+.hidden{
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
 }
