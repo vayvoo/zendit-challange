@@ -314,11 +314,11 @@ input[type=text]{
 }
 .page-footer{
     padding: 95px 140px 200px 162px;
-    background: #172F53 url(/img/footer.png) no-repeat center bottom;
+    background: #172F53 url(/img/footer.png) repeat-x center bottom;
 }
 .footer-main{
     display: flex;
-    max-width: 1618px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 .footer-title{
