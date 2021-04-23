@@ -141,6 +141,9 @@ input[type=text]{
     border: none;
 }
 .offer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     max-width: 1595px;
     margin: 0 auto;
     margin-top: 170px;
@@ -162,21 +165,17 @@ input[type=text]{
 }
 .offer-title{
     width: 852px;
-    margin: 0 auto;
     margin-bottom: 94px;
     text-align: center;
-    
 }
 .offer-cards{
     display: flex;
 }
 .card{
-    width: 350px;
-    height: 357px;
     padding: 30px;
-    
     background: #F6F8FF;
     border-radius: 20px;
+    padding-bottom: 76px;
 }
 .card:not(:first-child){
     margin-left: 65px;
